@@ -12,6 +12,7 @@ RUN apt-get update && \
         python
 
 RUN mkdir WGStoolsDir
+RUN mkdir WGSWorkingDir
 WORKDIR WGStoolsDir
 
 RUN wget https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.12.1.zip && \
