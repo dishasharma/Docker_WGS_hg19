@@ -8,3 +8,7 @@ It contains the dockerfile for whole genome sequencing analysis toolkit:
 5. Picard
 6. GATK-4.4.0
 7. Annovar
+
+
+It can be fetched from the docker hub link:
+docker push dishasharma/wgs:latest
